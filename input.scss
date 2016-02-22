@@ -1,0 +1,111 @@
+$left-margin: 75px;
+
+%padding {
+  padding: 2%;
+}
+@mixin basic {
+  color: white;
+  margin: $left-margin;
+  width: 60%;
+}
+@mixin opaAbsolute {
+  opacity: 0.9;
+  position: absolute;
+}
+
+a {
+  color: black;
+}
+
+#css-zen-garden {
+  background: #DAEDE2;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+.page-wrapper {
+  background: #77C4D3;
+  height: 180vh;
+  margin: $left-margin;
+  h3 {
+    font-size: 2em;
+  }
+}
+
+
+.intro {
+  @include basic;
+  header{
+    h1 {
+      background: #EA2E49;
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 7em;
+    }
+  }
+  .summary {
+    text-transform: uppercase;
+      a{
+        color: white;
+      }
+  }
+  .preamble {
+    color: black;
+    background: white;
+    left: 0; top: 60%;
+    width: 50vw;
+    height: 30vh;
+    @include opaAbsolute;
+    padding: 10px 20px 10px 150px;
+  }
+}
+
+#zen-supporting {
+  .explanation {
+    @include basic;
+    @include opaAbsolute;
+    left: 5%; bottom: -45%;
+    width: 29vw;
+    height: 40vh;
+    @extend %padding;
+  }
+  .participation {
+    border: 1px solid red;
+    @include basic;
+    @include opaAbsolute;
+    right: 7%; bottom: -45%;
+    width: 29vw;
+    height: 40vh;
+    background-color: #D93049;
+    z-index: 1;
+    padding: 20px 50px;
+  }
+}
+
+
+.extra1 {
+  background: #3A4453;
+  width: 20vw;
+  height: 180vh;
+  @include opaAbsolute;
+  top: 0; right: 0;
+}
+
+aside {
+  background: #E3E58B;
+  width: 25vw;
+  height: 70vh;
+  top: 15%; right: $left-margin;
+  z-index: 1;
+  line-height: 2;
+  @include opaAbsolute;
+  @extend %padding;
+  ul {
+  list-style: none;
+  }
+}

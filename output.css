@@ -1,0 +1,93 @@
+#zen-supporting .explanation, aside {
+  padding: 2%; }
+
+a {
+  color: black; }
+
+#css-zen-garden {
+  background: #DAEDE2;
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+.page-wrapper {
+  background: #77C4D3;
+  height: 180vh;
+  margin: 75px; }
+  .page-wrapper h3 {
+    font-size: 2em; }
+
+.intro {
+  color: white;
+  margin: 75px;
+  width: 60%; }
+  .intro header h1 {
+    background: #EA2E49;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase; }
+  .intro header h2 {
+    font-size: 7em; }
+  .intro .summary {
+    text-transform: uppercase; }
+    .intro .summary a {
+      color: white; }
+  .intro .preamble {
+    color: black;
+    background: white;
+    left: 0;
+    top: 60%;
+    width: 50vw;
+    height: 30vh;
+    opacity: 0.9;
+    position: absolute;
+    padding: 10px 20px 10px 150px; }
+
+#zen-supporting .explanation {
+  color: white;
+  margin: 75px;
+  width: 60%;
+  opacity: 0.9;
+  position: absolute;
+  left: 5%;
+  bottom: -45%;
+  width: 29vw;
+  height: 40vh; }
+#zen-supporting .participation {
+  border: 1px solid red;
+  color: white;
+  margin: 75px;
+  width: 60%;
+  opacity: 0.9;
+  position: absolute;
+  right: 7%;
+  bottom: -45%;
+  width: 29vw;
+  height: 40vh;
+  background-color: #D93049;
+  z-index: 1;
+  padding: 20px 50px; }
+
+.extra1 {
+  background: #3A4453;
+  width: 20vw;
+  height: 180vh;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+aside {
+  background: #E3E58B;
+  width: 25vw;
+  height: 70vh;
+  top: 15%;
+  right: 75px;
+  z-index: 1;
+  line-height: 2;
+  opacity: 0.9;
+  position: absolute; }
+  aside ul {
+    list-style: none; }
+
+/*# sourceMappingURL=output.css.map */
