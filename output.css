@@ -11,7 +11,7 @@ a {
 
 .page-wrapper {
   background: #77C4D3;
-  height: 180vh;
+  height: 200vh;
   margin: 75px; }
   .page-wrapper h3 {
     font-size: 2em; }
@@ -67,11 +67,42 @@ a {
   background-color: #D93049;
   z-index: 1;
   padding: 20px 50px; }
+  #zen-supporting .participation a {
+    color: white; }
+#zen-supporting .requirements {
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  right: 12%;
+  bottom: -84.7%;
+  width: 45vw;
+  height: auto;
+  padding: 20px 50px;
+  z-index: 1; }
+#zen-supporting .benefits {
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  left: 14.3%;
+  bottom: -78%;
+  width: 15vw;
+  height: auto;
+  padding: 20px 50px;
+  z-index: 1; }
+
+footer {
+  background: #E3E58B;
+  opacity: 0.9;
+  position: absolute;
+  bottom: -91%;
+  left: 14%;
+  padding: 30px 50px;
+  width: 450px; }
 
 .extra1 {
   background: #3A4453;
   width: 20vw;
-  height: 180vh;
+  height: 215vh;
   opacity: 0.9;
   position: absolute;
   top: 0;
@@ -82,7 +113,7 @@ aside {
   width: 25vw;
   height: 70vh;
   top: 15%;
-  right: 75px;
+  right: 5.5%;
   z-index: 1;
   line-height: 2;
   opacity: 0.9;
