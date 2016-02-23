@@ -1,8 +1,16 @@
 #zen-supporting .explanation, aside {
   padding: 2%; }
 
+.intro .preamble, #zen-supporting .explanation, #zen-supporting .participation, #zen-supporting .requirements, #zen-supporting .benefits, footer, .extra1, aside {
+  opacity: 0.9;
+  position: absolute; }
+
 a {
-  color: black; }
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid gray; }
+  a:hover {
+    border-bottom-color: #EA2E49; }
 
 #css-zen-garden {
   background: #DAEDE2;
@@ -32,47 +40,42 @@ a {
     text-transform: uppercase; }
     .intro .summary a {
       color: white; }
+      .intro .summary a:hover {
+        border-bottom-color: #EA2E49; }
   .intro .preamble {
     color: black;
     background: white;
-    left: 0;
-    top: 60%;
     width: 50vw;
     height: 30vh;
-    opacity: 0.9;
-    position: absolute;
+    left: 0;
+    top: 60%;
     padding: 10px 20px 10px 150px; }
 
 #zen-supporting .explanation {
   color: white;
   margin: 75px;
   width: 60%;
-  opacity: 0.9;
-  position: absolute;
   left: 5%;
   bottom: -45%;
   width: 29vw;
   height: 40vh; }
 #zen-supporting .participation {
-  border: 1px solid red;
   color: white;
   margin: 75px;
   width: 60%;
-  opacity: 0.9;
-  position: absolute;
   right: 7%;
   bottom: -45%;
   width: 29vw;
   height: 40vh;
-  background-color: #D93049;
+  background-color: #EA2E49;
   z-index: 1;
   padding: 20px 50px; }
   #zen-supporting .participation a {
     color: white; }
+    #zen-supporting .participation a:hover {
+      border-bottom-color: #EA2E49; }
 #zen-supporting .requirements {
   background-color: white;
-  opacity: 0.9;
-  position: absolute;
   right: 12%;
   bottom: -84.7%;
   width: 45vw;
@@ -81,8 +84,6 @@ a {
   z-index: 1; }
 #zen-supporting .benefits {
   background-color: white;
-  opacity: 0.9;
-  position: absolute;
   left: 14.3%;
   bottom: -78%;
   width: 15vw;
@@ -92,8 +93,6 @@ a {
 
 footer {
   background: #E3E58B;
-  opacity: 0.9;
-  position: absolute;
   bottom: -91%;
   left: 14%;
   padding: 30px 50px;
@@ -103,8 +102,6 @@ footer {
   background: #3A4453;
   width: 20vw;
   height: 215vh;
-  opacity: 0.9;
-  position: absolute;
   top: 0;
   right: 0; }
 
@@ -115,9 +112,7 @@ aside {
   top: 15%;
   right: 5.5%;
   z-index: 1;
-  line-height: 2;
-  opacity: 0.9;
-  position: absolute; }
+  line-height: 2; }
   aside ul {
     list-style: none; }
 

@@ -1,0 +1,13 @@
+// This should have been an extend not a mixin.
+@mixin basic {
+  color: white;
+  margin: $left-margin;
+  width: 60%;
+}
+
+
+@mixin box($bcolor, $width, $height) {
+  background: $bcolor;
+  width: $width;
+  height: $height;
+}
